@@ -3,9 +3,6 @@
 # <p align="center">Develop a application to draw a shapes using 3D graphics with openGL ES.
 
 </p>
-
-
-
 ## AIM:
 
 To create and design an android application to draw a shapes using 3D graphics with openGL ES using Android Studio.
@@ -43,8 +40,6 @@ Registeration Number : 212220230013
 
 ## MainActivity.java
 ```java
-
-
 package com.example.opengles;
 import androidx.appcompat.app.AppCompatActivity;
 import android.opengl.GLSurfaceView;
@@ -79,8 +74,6 @@ public class MainActivity extends AppCompatActivity {
 ## Activity_main.xml
 
 ```
-
-
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -89,21 +82,14 @@ public class MainActivity extends AppCompatActivity {
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 ```
 
-
 ## GLRender.java
 
 ```
-
 package com.example.opengles;
-
-
-
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 import android.content.Context;
@@ -171,16 +157,11 @@ public class GLRender implements GLSurfaceView.Renderer {
     }
 }
 
-
-
 ```
 ## cube.java
 
 ```
 package com.example.opengles;
-
-
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
@@ -260,7 +241,6 @@ public class Cube {
 
 ## Pyramid.java
 ```
-
 package com.example.opengles;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -336,7 +316,6 @@ public class Pyramid {
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.opengles">
-
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
     <application
         android:allowBackup="true"
@@ -359,6 +338,10 @@ public class Pyramid {
 </manifest>
 
 ```
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+
 
 ## OUTPUT
 ![Screenshot 2022-06-09 214445](https://user-images.githubusercontent.com/75235789/172895603-5e05ee00-a51a-4f70-8843-087fe21008e3.jpg)
